@@ -1,0 +1,68 @@
+.hideBg::part(background){
+    display: none;
+}
+
+.start-button{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.scan-box-qrcode{
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    display: block;
+    left: 50%;
+    height: 70vw;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+}
+
+.scan-box-barcode{
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    display: block;
+    left: 50%;
+    height: 15vw;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+}
+
+.div-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 40px;
+}
+
+.input{
+    width:70%;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: .8rem;
+    border: 1px solid;
+    border-color: #00000010;
+    outline: none;
+    color: #9b9b9b;
+}
+
+.copy-icon{
+    margin-left: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Scanner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "globals": {
+    "__DEV__": true
+},
+  "type": "react"
+}
